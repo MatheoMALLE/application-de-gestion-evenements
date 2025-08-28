@@ -1,45 +1,28 @@
 # Application de gestion d'événements
-Téléchargez tous les fichiers à l'adresse suivante : https://github.com/MatheoMALLE/application-de-gestion-evenements
-
-## 🛠️ Feuille de route
-- Gestion de Docker pour créer un conteneur
-- Utilisation de Flutter pour le frontend
-- Utilisation de Symfony pour le backend et interaction avec la base de données afin d'afficher les différents événements et sécuriser la connexion avec JWT
+Ce github est un test technique, Il contient le code frontend d'une application.
 
 ## 🧰 Compétences requises
-- Docker
+- Dart
 - Flutter
-- Symfony
-- MySQL
-- PHP
 ---
 ## Documentation
-### Docker
-1. Prérequis :
-- Docker
-- Compose
-
-2. Pour commencer :
-- Ouvrez Docker Desktop (recommandé)
-- Accédez au dossier du projet.  
-- docker compose up -d
-
-3. Informations :
-Docker crée deux conteneurs :
-- Symfony sur le port : 8000
-- MySQL sur le port : 3306
-
 ### Flutter
 1. Prérequis : 
 - Flutter SDK
 
 2. Pour commencer
-- Accédez au dossier du projet 
-- cd flutter
-- flutter pub get
+Téléchargez tous les fichiers à l'adresse suivante : https://github.com/MatheoMALLE/application-de-gestion-evenements
+- Accédez au dossier du projet
+- flutter doctor
+verifier que l'environnement est bien configuré
 - flutter run -d
 
 3. Informations :
-nous avons 3 pages : accueil, connexion, inscription
+le programme ce concentre principalement autour des fonctionnalité de la page de réservations.
+Celle-ci permet:
+-d'ajouter de nouveaux event
+-supprimer des event
+-de parcourir l'ensemble des event.
 
-> Ce projet se concentre sur le **code essentiel** (API + JWT + points de terminaison + Flutter minimal).
+Ce projet ne comprend aucune base de donnée, Pour cette raison aucun modification n'est permanant et le site sera identique a chaque fois que le projet est lancé.
+
