@@ -57,6 +57,7 @@ class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xFFFAE4CD), // <-- couleur du body
       appBar: AppBar(
         title: const Text("Mes favoris"),
         backgroundColor: Colors.white,
